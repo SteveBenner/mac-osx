@@ -13,9 +13,3 @@ Thumbs.db
 
 # JetBrains IDE configuration files
 .idea/
-
-# SASS/SCSS
-.sass-cache/
-
-# Bundler
-vendor/ruby
