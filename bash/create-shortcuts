@@ -1,0 +1,13 @@
+# Create one-time shortcuts by symbolically linking files into the executable bin direcitory
+
+# System Utilities - place in /usr/sbin
+
+# Airport scan utility (requires wifi to be enabled, of course)
+# source: http://www.infoworld.com/d/applications/top-20-os-x-command-line-secrets-power-users-202466
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport
+
+# Local Executables - place in /usr/local/bin
+
+# Sublime Text 2
+# source: http://www.sublimetext.com/docs/2/osx_command_line.html
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
