@@ -1,4 +1,0 @@
-# Initialization scripts to run during a new Mac system configuration
-
-# Create the file database used by 'locate', a command-line search utility
-sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
