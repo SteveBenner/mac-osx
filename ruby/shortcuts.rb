@@ -27,4 +27,4 @@ symlinks = {
   }
 }
 
-# todo: write files and make symlinks
+# todo: add code to create files and symlinks

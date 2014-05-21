@@ -30,8 +30,17 @@ I use these workflows to create contextual menu services for handy tasks like co
 ## Ruby scripts
 Every mac system has Ruby installed these days, so forget Bash, man.
 
-#### `executables.rb`
+#### `shortcuts.rb`
 Creates executables for accessing software in an easier manner, as well as executing common command sequences. Read the inline documentation in the file for more detailed info.
 
 #### `init.rb`
 This is the file that bootstraps everything needed for installation and setup, such as Homebrew, the beast Mac package manager.
+
+## Bash Scripts
+Some of these are just Bash versions of my Ruby scripts
+
+#### `configure-defaults.bash` 
+I like to customize the behavior of OS X by tweaking a few settings.
+
+#### `nuke-ruby.bash`
+I would be careful about giving this one executable permissions.
