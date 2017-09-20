@@ -8,18 +8,13 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Tar-and-Gzip</string>
+				<string>Open in Sublime 2</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
-			<key>NSRequiredContext</key>
-			<dict>
-				<key>NSApplicationIdentifier</key>
-				<string>com.cocoatech.PathFinder</string>
-			</dict>
 			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.item</string>
+				<string>public.folder</string>
 			</array>
 		</dict>
 	</array>

@@ -88,8 +88,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>26668CE2-E806-4ECA-A3D5-C5DA26CB9230</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>27032F7A-D746-4CDE-8D7D-D8088CBE50DF</string>
 				<key>UnlocalizedApplications</key>
@@ -115,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.500000:734.000000</string>
+				<string>399.500000:696.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -225,7 +223,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.500000:630.000000</string>
+				<string>399.500000:592.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -398,7 +396,7 @@ puts File.basename(ARGV[0])</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.500000:527.000000</string>
+				<string>399.500000:489.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -508,7 +506,7 @@ puts File.basename(ARGV[0])</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>769.500000:344.000000</string>
+				<string>399.500000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -649,7 +647,7 @@ puts File.basename(ARGV[0])</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.500000:302.000000</string>
+				<string>399.500000:210.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -659,33 +657,33 @@ puts File.basename(ARGV[0])</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>086C66E0-79DF-4E64-94F9-3D06E6907BFD</key>
-		<dict>
-			<key>from</key>
-			<string>A17C8748-FA60-4A1F-8612-39CE959B43D0 - A17C8748-FA60-4A1F-8612-39CE959B43D0</string>
-			<key>to</key>
-			<string>BFDCA5E6-CA57-445E-9377-89E405B51000 - BFDCA5E6-CA57-445E-9377-89E405B51000</string>
-		</dict>
-		<key>2D6C1051-BB5E-4D7B-BB57-985BD70C1D33</key>
-		<dict>
-			<key>from</key>
-			<string>AA92F2BE-C103-475D-99D6-CB107218A497 - AA92F2BE-C103-475D-99D6-CB107218A497</string>
-			<key>to</key>
-			<string>A17C8748-FA60-4A1F-8612-39CE959B43D0 - A17C8748-FA60-4A1F-8612-39CE959B43D0</string>
-		</dict>
-		<key>35996432-0AE9-4A9B-831C-F95B269E1993</key>
-		<dict>
-			<key>from</key>
-			<string>F29CE3C0-F8BE-4872-B2E4-E74BEDD63664 - F29CE3C0-F8BE-4872-B2E4-E74BEDD63664</string>
-			<key>to</key>
-			<string>AA92F2BE-C103-475D-99D6-CB107218A497 - AA92F2BE-C103-475D-99D6-CB107218A497</string>
-		</dict>
-		<key>93A06170-20A8-4EE6-815C-3804B0B52252</key>
+		<key>A4475820-5BC0-46D0-B8A1-601CDCC01E02</key>
 		<dict>
 			<key>from</key>
 			<string>27032F7A-D746-4CDE-8D7D-D8088CBE50DF - 27032F7A-D746-4CDE-8D7D-D8088CBE50DF</string>
 			<key>to</key>
 			<string>F29CE3C0-F8BE-4872-B2E4-E74BEDD63664 - F29CE3C0-F8BE-4872-B2E4-E74BEDD63664</string>
+		</dict>
+		<key>AAD5E980-FE05-4FFE-953F-6A713E81B371</key>
+		<dict>
+			<key>from</key>
+			<string>F29CE3C0-F8BE-4872-B2E4-E74BEDD63664 - F29CE3C0-F8BE-4872-B2E4-E74BEDD63664</string>
+			<key>to</key>
+			<string>AA92F2BE-C103-475D-99D6-CB107218A497 - AA92F2BE-C103-475D-99D6-CB107218A497</string>
+		</dict>
+		<key>DEAC9034-F751-4696-9A98-746C1338AC74</key>
+		<dict>
+			<key>from</key>
+			<string>AA92F2BE-C103-475D-99D6-CB107218A497 - AA92F2BE-C103-475D-99D6-CB107218A497</string>
+			<key>to</key>
+			<string>A17C8748-FA60-4A1F-8612-39CE959B43D0 - A17C8748-FA60-4A1F-8612-39CE959B43D0</string>
+		</dict>
+		<key>EA4F5DF4-FE92-48AD-AB10-EC98B8108D88</key>
+		<dict>
+			<key>from</key>
+			<string>A17C8748-FA60-4A1F-8612-39CE959B43D0 - A17C8748-FA60-4A1F-8612-39CE959B43D0</string>
+			<key>to</key>
+			<string>BFDCA5E6-CA57-445E-9377-89E405B51000 - BFDCA5E6-CA57-445E-9377-89E405B51000</string>
 		</dict>
 	</dict>
 	<key>variables</key>
