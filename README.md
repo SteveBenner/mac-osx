@@ -1,22 +1,18 @@
-# Mac OS X Scripts
-This is my personal collection of scripts and Automator Workflows for use on Mac systems.
-
-#### TODO:
-- create a file watcher that can automatically inject ruby scripts into `.workflow` packages on `.rb` file modification--after all, they're just XML files under the hood
-- reorganize this repo and make it easier to install scripts and services
+# macOS scripts
+This is my personal collection of scripts and Automator Workflows for use on macOS systems.
 
 ## AppleScripts
-Place contents within in `/Users/$USER/Library/Scripts/` to install.
+To install, place `.scpt` files in `~/Library/Scripts/`.
 
 - `toggle-function-keys`
 
-    Toggles operation of function keys between special keyboard actions, (such as volume controls) and normal function keys. Helpful for smaller keyboards.
+    Toggles keyboard mode between *F1-F12* and special function keys.
 - `resize-rhosimulator-iphone`
 
-    Automatically resizes the [RhoMobile](http://rhomobile.com/) [RhoSimulator](http://docs.rhomobile.com/en/2.2.0/rhodes/simulator) iPhone window at application start.
+    Automatically resizes the [RhoMobile](http://rhomobile.com/) [RhoSimulator](http://docs.rhomobile.com/en/2.2.0/rhodes/simulator) iPhone window at application start. Used for testing and development of cross-platform apps.
 
 ## Automator Workflows
-I use these workflows to create contextual menu services for handy tasks like compression. Place contents of this directory in `/Users/$USER/Library/Services/` to install.
+Various contextual menu services. To install, place `.workflow` files in `~/Library/Services/`.
 
 - `Scan-with-DaisyDisk`
 
